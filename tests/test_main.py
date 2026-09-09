@@ -17,4 +17,4 @@ def test_my_cicd():
     response = client.get("/mycicd")
 
     assert response.status_code == 200
-    assert response.json() == {"message": "ci et cd sont prets"}
+    assert response.json() == {"message": "ci et cd sont prets a 100 %"}

@@ -16,3 +16,4 @@ mon_api.egg-info/dependency_links.txt
 mon_api.egg-info/requires.txt
 mon_api.egg-info/top_level.txt
 tests/__init__.py
+tests/test_main.py

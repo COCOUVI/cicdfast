@@ -10,4 +10,4 @@ def read_root():
 
 @app.get("/mycicd")
 def read_root():
-    return {"message": "ci et cd sont prets"}
+    return {"message": "ci et cd sont prets a 100 %"}

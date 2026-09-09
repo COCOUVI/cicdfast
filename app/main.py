@@ -7,6 +7,10 @@ app = FastAPI(title="Mon API", version="0.1.0")
 def read_root():
     return {"message": "API en ligne"}
 
+@app.get("/health")
+def read_root():
+    return {"status": "ok"}
+
 
 @app.get("/mycicd")
 def read_root():

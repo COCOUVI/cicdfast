@@ -18,3 +18,9 @@ def test_my_cicd():
 
     assert response.status_code == 200
     assert response.json() == {"message": "ci et cd sont prets a 100 %"}
+
+def test_health():
+    response = client.get("/health")
+
+    assert response.status_code == 200
+    assert response.json() == {"status": "ok"}
